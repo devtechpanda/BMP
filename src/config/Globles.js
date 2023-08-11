@@ -1,0 +1,61 @@
+import {heightPercentageToDP as hp} from 'react-native-responsive-screen';
+
+export const STORE_KEY = 'a56z0fzrNpl^2';
+export const COLOR = {
+  ThemeColor: '#1D042B',
+  Purple: '#776BF1',
+  Voilet: '#A510F9',
+  DARK_BLUE: '#001D4C',
+  LIGHT_BLUE: '#D1EEFF',
+  TITLE_COLOR: '#00C7FE',
+  WHITE: '#FFFFFF',
+  BLACK: '#333333',
+  RED_LIGHT: '#757575',
+  GRAY: '#757575',
+  Black: 'black',
+  LIGHT_GRAY: '#b5bdb7',
+  ExtLIGHT_GRAY: '#c7d1c9',
+  // Light_Voilet: '#281136',
+  Light_Voilet: '#442c4d',
+  Orange: 'orange',
+  DarkOrange: '#FF9E00',
+  // DARK_BLUE: '#00223E',
+};
+
+export const FONT = {
+  SEMI_BOLD: 'Montserrat-SemiBold',
+  REGULAR: 'Montserrat-Regular',
+  EXTRA_BOLD: 'Montserrat-ExtraBold',
+  LIGHT: 'Montserrat-Light',
+  BOLD: 'Montserrat-Bold',
+  MEDIUM: 'Montserrat-Medium',
+  EXTRA_LIGHT: 'Montserrat-ExtraLight',
+};
+
+export const FONT_SIZE = {
+  F_1: hp('1.3%'),
+  F_15: hp('1.5%'),
+  F_17: hp('1.7%'),
+  F_19: hp('1.9%'),
+  F_2: hp('2%'),
+  F_22: hp('2.2%'),
+  F_23: hp('2.3%'),
+  F_25: hp('2.5%'),
+  F_27: hp('2.7%'),
+  F_28: hp('2.8%'),
+  F_3: hp('3%'),
+  F_33: hp('3.3%'),
+  F_35: hp('3.5%'),
+  F_37: hp('3.7%'),
+  F_38: hp('3.8%'),
+  F_4: hp('4%'),
+  F_43: hp('4.3%'),
+  F_45: hp('4.5%'),
+  F_47: hp('4.7%'),
+  F_48: hp('4.8%'),
+  F_5: hp('5%'),
+  F_53: hp('5.3%'),
+  F_55: hp('5.5%'),
+  F_57: hp('5.7%'),
+  F_58: hp('5.8%'),
+};
